@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包产物（发布走 Releases，不入库）
+build/
+dist/
+*.spec
+
+# 本地配置与凭据，绝不能提交
+config.json
+.env
+.env.*
+
+# 开发调试产物
+.preview_*.png
+.preview_home/
+.smoke_home/
+.dialog_home/
+*.log
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store
